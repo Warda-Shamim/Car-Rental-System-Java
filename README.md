@@ -3,7 +3,7 @@ Java, Swing + MySQL based Car Rental System with Owner and Customer modules
 ---
 
 ## Project Description
-The **Car Rental Management System** is a comprehensive solution designed to bridge the gap between car owners and customers. This project focuses on automating the rental workflow, from inventory management to secure booking and payment tracking. By leveraging a relational database, the system ensures data integrity and provides real-time updates on vehicle availability, ensuring a professional experience for both administrative owners and end-users.
+The **Car Rental Management** System is a professional, Java-based application designed to streamline the rental process for both car owners and customers. By integrating Swing for a user-friendly interface and MySQL for robust database management, the system automates core workflows such as vehicle inventory tracking, secure booking management, and data-driven updates on car availability. This comprehensive solution focuses on maintaining data integrity through relational structures, ensuring a seamless experience that bridges the gap between administrative oversight and end-user convenience.
 
 ---
 
@@ -17,10 +17,14 @@ The **Car Rental Management System** is a comprehensive solution designed to bri
 
 ## Purpose & Scope
 The system is built to solve common issues in traditional rental services, such as double-booking and manual record-keeping. 
-*   **Encapsulation & Abstraction:** Implementing secure user roles.
-*   **Data Persistence:** Using MySQL to ensure bookings are saved even after the app closes.
-*   **User Experience:** A "demure" and professional GUI using Java Swing components.
-
+* **Classes & Objects:** Uses custom classes to represent core entities, allowing the system to create and manage specific car and user instances.
+* **Encapsulation:** Protects sensitive data by using private access modifiers and controlled access through getter and setter methods.
+* **Inheritance:** Reduces redundancy by allowing specific user roles (like Admin or Customer) to inherit properties from a base parent class.
+* **Database Persistence:** Utilizes MySQL via JDBC to ensure that all booking and inventory data remains saved even after the application is closed.
+* **Exception Handling:** Implements try-catch blocks and throws keywords to manage database connection errors and prevent system crashes during invalid user        input.
+* **Collections:** Employs Java Collections (such as ArrayList) to handle dynamic lists of records, such as active bookings or available vehicle arrays.
+* **User Experience:** Provides a professional, "demure" GUI built with Java Swing components to streamline the workflow for both owners and customers.
+  
 ---
 
 ## Main Modules
@@ -47,7 +51,7 @@ A high-level administrative panel allowing the owner to monitor:
 ### Database Setup (MySQL)
 1.  Create the database using the provided script:
     ```sql
-    SOURCE database/schema.sql;
+    SOURCE database/carrentaldb.sql;
     ```
 2.  Ensure your MySQL server is running on `localhost:3306`.
 3.  Update the `DB.java` file if your MySQL password differs from the default `PASSWORD`.
@@ -62,11 +66,11 @@ A high-level administrative panel allowing the owner to monitor:
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 ```text
 ├── database/
-│   └── schema.sql        # Database schema and sample records
+│   └── carrentaldb.sql        # Database schema and sample records
 ├── src/
 │   └── CarRental.java    # Main application source code
-├── assets/               # Screenshots or demo images (Optional)
+├── assets/               # Screenshots of outputs 
 └── README.md             # Project documentation
