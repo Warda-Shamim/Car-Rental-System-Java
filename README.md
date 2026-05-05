@@ -66,6 +66,12 @@ A high-level administrative panel allowing the owner to monitor:
 
 ---
 
+## Project Links
+*   **GitHub Repository:** 
+*   **Demo Video:** [Insert your YouTube link here]
+
+---
+
 ## Project Structure
 ```text
 ├── database/
