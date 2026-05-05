@@ -2,12 +2,12 @@
 Java, Swing + MySQL based Car Rental System with Owner and Customer modules
 ---
 
-## Project Description
+## ➜ Project Description
 The **Car Rental Management** System is a professional, Java-based application designed to streamline the rental process for both car owners and customers. By integrating Swing for a user-friendly interface and MySQL for robust database management, the system automates core workflows such as vehicle inventory tracking, secure booking management, and data-driven updates on car availability. This comprehensive solution focuses on maintaining data integrity through relational structures, ensuring a seamless experience that bridges the gap between administrative oversight and end-user convenience.
 
 ---
 
-## Group Members & Contribution
+## ➜ Group Members & Contribution
 | Name | CMS / ID | Section |
 | :--- | :--- | :--- |
 | **Warda Shamim** | 023-25-0518 | B |
@@ -15,7 +15,7 @@ The **Car Rental Management** System is a professional, Java-based application d
 
 ---
 
-## Purpose & Scope
+## ➜ Purpose & Scope
 The system is built to solve common issues in traditional rental services, such as double-booking and manual record-keeping. 
 * **Classes & Objects:** Uses custom classes to represent core entities, allowing the system to create and manage specific car and user instances.
 * **Encapsulation:** Protects sensitive data by using private access modifiers and controlled access through getter and setter methods.
@@ -27,7 +27,7 @@ The system is built to solve common issues in traditional rental services, such 
   
 ---
 
-## Main Modules
+## ➜ Main Modules
 
 ### 1. Authentication System
 The `AuthService` handles secure access. It distinguishes between **Owner** and **Customer** tables in the database to provide role-specific functionalities.
@@ -46,7 +46,7 @@ A high-level administrative panel allowing the owner to monitor:
 
 ---
 
-## How to Run
+## ➜ How to Run
 
 ### Database Setup (MySQL)
 1.  Create the database using the provided script:
@@ -66,13 +66,13 @@ A high-level administrative panel allowing the owner to monitor:
 
 ---
 
-## Project Links
-*   **GitHub Repository:** 
-*   **Demo Video:** [Insert your YouTube link here]
+## ➜ Project Links
+*   **GitHub Repository:** https://github.com/Warda-Shamim/Car-Rental-System-Java
+*   **Demo Video:** [Pending...]
 
 ---
 
-## Project Structure
+## ➜ Project Structure
 ```text
 ├── database/
 │   └── carrentaldb.sql        # Database schema and sample records
