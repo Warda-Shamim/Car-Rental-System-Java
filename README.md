@@ -54,7 +54,7 @@ A high-level administrative panel allowing the owner to monitor:
     SOURCE database/carrentaldb.sql;
     ```
 2.  Ensure your MySQL server is running on `localhost:3306`.
-3.  Update the `DB.java` file if your MySQL password differs from the default `PASSWORD`.
+3.  Update the `DB.java` file if your MySQL password differs from the default `YOUR_SQL_PASSWORD`.
 
 ### Compilation & Execution
 1.  **Clone the Repo:**
