@@ -68,7 +68,7 @@ A high-level administrative panel allowing the owner to monitor:
 
 ## ➜ Project Links
 *   **GitHub Repository:** https://github.com/Warda-Shamim/Car-Rental-System-Java
-*   **Demo Video:** [Pending...]
+*   **Demo Video:** https://drive.google.com/file/d/1HhUoHKKAlTGakxsvnO76j37_ZEMzolWr/view?usp=drivesdk
 
 ---
 
